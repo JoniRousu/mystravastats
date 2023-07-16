@@ -228,6 +228,7 @@ docker run -it --rm --env="DISPLAY=host.docker.internal:0" -v /tmp/.X11-unix:/tm
 | Best 1000 m | Sliding window best effort for a given distance.|
 | Best 5000 m | Sliding window best effort for a given distance.|
 | Best 10000 m | Sliding window best effort for a given distance.|
+| Best 10 mi. | Sliding window best effort for a given distance.|
 | Best half Marathon | Sliding window best effort for a given distance.|
 | Best Marathon | Sliding window best effort for a given distance.|
 | Best 1 h | Sliding window best effort for a given time.|
