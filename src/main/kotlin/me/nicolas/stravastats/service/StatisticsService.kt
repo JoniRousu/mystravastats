@@ -38,6 +38,7 @@ internal class StatisticsService {
                 BestEffortDistanceStatistic("Best 1000 m", runActivities, 1000.0),
                 BestEffortDistanceStatistic("Best 5000 m", runActivities, 5000.0),
                 BestEffortDistanceStatistic("Best 10000 m", runActivities, 10000.0),
+                BestEffortDistanceStatistic("Best 10 mi.", runActivities, 16093.4),
                 BestEffortDistanceStatistic("Best half Marathon", runActivities, 21097.0),
                 BestEffortDistanceStatistic("Best Marathon", runActivities, 42195.0),
                 BestEffortTimeStatistic("Best 1 h", runActivities, 60 * 60),
