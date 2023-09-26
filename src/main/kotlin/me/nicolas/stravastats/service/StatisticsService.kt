@@ -166,6 +166,7 @@ internal class StatisticsService {
 
         statistics.addAll(
             listOf(
+                MaxSpeedStatistic(inlineSkateActivities),
                 BestEffortDistanceStatistic("Best 200 m", inlineSkateActivities, 200.0),
                 BestEffortDistanceStatistic("Best 400 m", inlineSkateActivities, 400.0),
                 BestEffortDistanceStatistic("Best 1000 m", inlineSkateActivities, 1000.0),
