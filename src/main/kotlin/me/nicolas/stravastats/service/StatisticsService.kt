@@ -44,9 +44,9 @@ internal class StatisticsService {
                 BestEffortTimeStatistic("Best 1 h", runActivities, 60 * 60),
                 BestEffortTimeStatistic("Best 2 h", runActivities, 2 * 60 * 60),
                 BestEffortTimeStatistic("Best 3 h", runActivities, 3 * 60 * 60),
-                BestEffortTimeStatistic("Best 4 h", runActivities, 4 * 60 * 60),
-                BestEffortTimeStatistic("Best 5 h", runActivities, 5 * 60 * 60),
-                BestEffortTimeStatistic("Best 6 h", runActivities, 6 * 60 * 60),
+                // BestEffortTimeStatistic("Best 4 h", runActivities, 4 * 60 * 60),
+                // BestEffortTimeStatistic("Best 5 h", runActivities, 5 * 60 * 60),
+                // BestEffortTimeStatistic("Best 6 h", runActivities, 6 * 60 * 60),
             )
         )
 
