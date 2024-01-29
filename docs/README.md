@@ -16,7 +16,11 @@ This tool scans through activities :
 * Calculate the best vVO2max (6 min) : This is the smallest speed that requires VO2 max in an accelerated speed test.
   MyStravaStats look for with a 'sliding window' the best effort for the given time (6 minutes) on running activities.
   https://en.wikipedia.org/wiki/VVO2max
-* ANd many others statistics 
+* FTP (Functional Threshold Power) is the maximum power you can sustain for an hour, measured in watts. MyStravaStats
+  look for with a 'sliding window' the best effort for the given time (1 hour) on bike activities.
+  The easiest way to calculate your FTP is to test your best average power for 20-minutes and then subtract 5%.
+
+And many others statistics
 
 ## IHM
 
@@ -42,10 +46,10 @@ The Strava API application settings page provides *mandatory parameters* for My 
 
 ### Launch mystravastats
 
-JDK 18 is needed to run mystravastats.
+JDK 21 is needed to run mystravastats.
 
 ```
-sdk install java 18.0.1-tem
+sdk install java 21.0.1-tem
 
 git clone https://github.com/nbulteau/mystravastats.git
 cd mystravastats
